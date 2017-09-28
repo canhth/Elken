@@ -1,0 +1,6 @@
+framework module CT_UILib {
+  umbrella header "CT_UILib-umbrella.h"
+
+  export *
+  module * { export * }
+}

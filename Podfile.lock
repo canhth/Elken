@@ -1,0 +1,80 @@
+PODS:
+  - Alamofire (4.5.0)
+  - AlamofireImage (3.2.0):
+    - Alamofire (~> 4.1)
+  - CocoaLumberjack/Default (3.2.1)
+  - CocoaLumberjack/Swift (3.2.1):
+    - CocoaLumberjack/Default
+  - CT_RESTAPI (1.0.0):
+    - CocoaLumberjack/Swift
+    - ObjectMapper
+    - RxAlamofire
+    - RxSwift
+    - SwiftyJSON
+  - CT_UILib (1.0.0):
+    - CocoaLumberjack/Swift
+    - RxSwift
+    - SnapKit (~> 3.2.0)
+  - IQKeyboardManagerSwift (4.0.13)
+  - NSDate+TimeAgo (1.0.6)
+  - ObjectMapper (2.2.8)
+  - ReachabilitySwift (3)
+  - Realm (2.10.0):
+    - Realm/Headers (= 2.10.0)
+  - Realm/Headers (2.10.0)
+  - RealmSwift (2.10.0):
+    - Realm (= 2.10.0)
+  - RxAlamofire (3.0.3):
+    - RxAlamofire/Core (= 3.0.3)
+  - RxAlamofire/Core (3.0.3):
+    - Alamofire (~> 4.0)
+    - RxSwift (~> 3.0)
+  - RxCocoa (3.6.1):
+    - RxSwift (~> 3.6)
+  - RxSwift (3.6.1)
+  - SnapKit (3.2.0)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - AlamofireImage
+  - CocoaLumberjack/Swift
+  - CT_RESTAPI (from `LocalPods/CT_RESTAPI/`)
+  - CT_UILib (from `LocalPods/CT_UILib/`)
+  - IQKeyboardManagerSwift
+  - NSDate+TimeAgo
+  - ObjectMapper
+  - ReachabilitySwift
+  - RealmSwift
+  - RxAlamofire
+  - RxCocoa
+  - RxSwift
+  - SnapKit (~> 3.2.0)
+  - SwiftyJSON
+
+EXTERNAL SOURCES:
+  CT_RESTAPI:
+    :path: LocalPods/CT_RESTAPI/
+  CT_UILib:
+    :path: LocalPods/CT_UILib/
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  AlamofireImage: 157ed682cc81d3b9db4fb90c1f12180ac552d93b
+  CocoaLumberjack: 2800c03334042fe80589423c8d80e582dcaec482
+  CT_RESTAPI: 2d228b00599f069e5e5dfc804c3cd003ca4d3692
+  CT_UILib: b9a3bb655511154fd9250bace57cd3af6c7438ef
+  IQKeyboardManagerSwift: fb399c4cddcd8d9bbcd2d0c7c81ed290b61c088e
+  NSDate+TimeAgo: 35601c619b2d59290055e4fe76e61d97677a2360
+  ObjectMapper: 3d571bb5af471c779e1160828cd9ad5c4ef90958
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  Realm: 98b3a25643cf6b3e07d2b99fb43fe0eb9c801dec
+  RealmSwift: 34073ad3a31232bbaf7c0db898c037940284cba2
+  RxAlamofire: 5eb39188c4917ad98127c0ecb4878a61b7517003
+  RxCocoa: 84a08739ab186248c7f31ce4ee92d6f8a947d690
+  RxSwift: f9de85ea20cd2f7716ee5409fc13523dc638e4e4
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: b7ce50ff6c12479091cf2ee82f1b56805df397d7
+
+COCOAPODS: 1.2.1
